@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <title>幸福人生 紀錄卡</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>幸福人生</h1>
+    
+    <div class="main">
+        <form class="input_form">
+            <div class="form__row">
+                <div class="input__group">
+                    <h6>財富</h6>
+                    <input type="number" pattern="\d*" id="wealth"/>
+                    <h6>,000+名譽</h6>
+                    <input type="number" pattern="\d*" id="fame"/>
+                    <h6>+健康</h6>
+                    <input type="number" pattern="\d*" id="health"/>
+                    <h6>=60分</h6>                
+                </div>
+            </div>
+            <div class="form__row">
+                <div class="input__check-buttons">
+                    <h6>職業紀錄</h6><br>
+                    <input type="checkbox" id="sea">
+                    <label for="sea">航海</label><br>
+                    <input type="checkbox" id="film">
+                    <label for="film">電影</label><br>
+                    <input type="checkbox" id="mine">
+                    <label for="mine">採礦</label><br>
+                    <input type="checkbox" id="public">
+                    <label for="public">政治</label><br>
+                    <input type="checkbox" id="farm">
+                    <label for="farm">農業</label><br>
+                    <input type="checkbox" id="space">
+                    <label for="space">太空</label><br>
+                    <input type="checkbox" id="company">
+                    <label for="company">企業</label>
+                </div>
+                <div class="input__check-buttons">
+                    <h6>大學教育</h6><br>
+                    <input type="checkbox" id="law">
+                    <label for="law">法律</label><br>
+                    <input type="checkbox" id="medicine">
+                    <label for="medicine">醫學</label><br>
+                    <input type="checkbox" id="engineer">
+                    <label for="engineer">工程</label><br>
+                    <input type="checkbox" id="science">
+                    <label for="science">科學</label><br>
+                    <input type="checkbox" id="normal">
+                    <label for="normal">普通</label>
+                </div>
+                <div class="input__check-buttons">
+                    <h6>薪級</h6><br>
+                    <input type="number" pattern="\d*" id="salary" value="1000"/>
+                </div>
+                <div class="input__check-buttons">
+                    <h6>財富</h6><br>
+                    <input type="number" pattern="\d*" id="hasWealth" value="0"/><br>
+                    <h6>名譽</h6><br>
+                    <input type="number" pattern="\d*" id="hasHealth" value="0"/>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
